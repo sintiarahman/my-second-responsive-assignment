@@ -230,6 +230,7 @@ color:rgba(233, 90, 8, 1) ;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
+    
 }
 .row3{
     
@@ -247,6 +248,83 @@ color:rgba(233, 90, 8, 1) ;
     border-radius: 20px;
     font-size: 30px;
     font-weight: bold;
+}
+
+
+
+/*join-colorful bunch*/
+.join-bunch{
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    height: 400px;
+    width: 100%;
+    background-image: url(image/news-letter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    text-align: center;
+    padding-top:150px;
+    margin-bottom: 40px;
+}
+.join-title{
+
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+.input-field{
+
+}
+.wide-input{
+    width: 500px;
+    height: 32px;
+    padding: 20px;
+}
+.button{
+    height: 43px;
+    width: 120px;
+   background-color: rgba(233, 90, 8, 1);
+   border: none;
+   
+}
+/*--footer-section*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: auto;
+    height: 370px;
+    margin-bottom: 50px;
+}
+.icon-footer ul li{
+    list-style: none;
+    
+     
+}
+.icon-image{
+    height: 30px;
+    width: 210px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.icon-image img{
+    
+}
+
+
+.logo-section{
+    width: 350px;
+    padding-top: 50px;
+}
+.icon-footer{
+    margin-top: 30px;
+    line-height: 60px;
 }
 
 
@@ -323,4 +401,28 @@ color:rgba(233, 90, 8, 1) ;
         margin-left: 0;
         text-align: center;
     }
+    /*join-colorful-bunch*/
+    .wide-input{
+        width: 200px;
+    }
+    .button{
+        width: 100px;
+    }
+    .input-field{
+        flex-wrap: nowrap;
+    }
+    .join-bunch{
+        width: 100%;
+        
+    }
+    /*--footer-section*/
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        margin-bottom: 100px;
+        padding-bottom: 50px;
+    }
+
 }
