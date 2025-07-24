@@ -123,6 +123,70 @@
    
 
 }
+/*flowers lovers section*/
+.flower-lovers{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    margin: 80px auto;
+    padding: 10px;
+    gap: 20px;
+    
+    width: 940px;
+    height: auto;
+
+}
+.flower-lovers-image{
+    background-image: url(image/flower-store.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:420px;
+    height: 360px;
+}
+.flower-lovers-title{
+    box-sizing: border-box;
+
+    width: 400px;
+    height: auto;
+    
+
+}
+.flower-lovers-title h2 {
+margin-bottom: 30px;
+font-size:40px;
+}
+.flower-lovers-title p{
+    gap: 10px;
+    color:rgba(0, 0, 0, 0.5) ;
+}
+.flower-lovers-image img{
+    width: 210px;
+    height: auto;
+    margin-left: 300px;
+    margin-top: -100px;
+
+}
+.latest-deal{
+    margin: 30px ;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.deals-title h1{
+font-weight: bold;
+font-size: 30px;
+}
+.deals-title span{
+color:rgba(233, 90, 8, 1) ;
+
+}
+.deals-title p{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
 
 
 
@@ -153,6 +217,21 @@
     .card-container img{
         width: 100%;
     }
+    /*flowers lovers-section*/
+    .flower-lovers{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+    .flower-lovers-image
+    .flower-lovers-title{
+        width: 100%;
+        margin: 30px;
+
+    }
+    .flower-lovers-image img{
+    display: none;
+    }
     
 }
-
