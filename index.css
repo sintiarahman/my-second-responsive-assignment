@@ -176,7 +176,7 @@ font-size:40px;
 }
 .deals-title h1{
 font-weight: bold;
-font-size: 30px;
+font-size: 40px;
 }
 .deals-title span{
 color:rgba(233, 90, 8, 1) ;
@@ -184,6 +184,69 @@ color:rgba(233, 90, 8, 1) ;
 }
 .deals-title p{
     color: rgba(0, 0, 0, 0.5);
+}
+/*collage-section*/
+.collage-section{
+    
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+}
+.row12-header{
+    margin-left: 160px;
+    border-radius: 15px;
+    gap: 30px;
+}
+.row1{
+    
+    color: rgba(255, 255, 255, 1);
+     align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 20px;
+   height: 180px;
+    width: 320px;
+    background-image: url(image/deal-bloom.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row2{
+    
+    color: rgba(255, 255, 255, 1);
+     align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    height: 180px;
+    width: 320px;
+    background-image: url(image/deal-ana.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row3{
+    
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    text-align: center;
+    padding-top: 170px;
+
+    height:auto;
+    width:550px;
+    background-image: url(image/deal-zabo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 
@@ -233,5 +296,31 @@ color:rgba(233, 90, 8, 1) ;
     .flower-lovers-image img{
     display: none;
     }
+    /*collage-section*/
+    .collage-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .row1,
+    .row2,
+    .row3{
     
+        width:355px;
+        height: 200px;
+        padding-top: 60px;
+       
+        font-size: 22px;
+        
+    }
+    .row3{
+        width: 90%;
+        height: 200px;
+        padding-top: 60px;
+        font-size: 22px;
+    }
+    .row12-header{
+        margin-left: 0;
+        text-align: center;
+    }
 }
