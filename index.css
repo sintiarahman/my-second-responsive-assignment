@@ -377,6 +377,8 @@ color:rgba(233, 90, 8, 1) ;
     }
     .flower-lovers-image img{
     display: none;
+    margin-left: 15px;
+    margin-right: 15px;
     }
     /*collage-section*/
     .collage-section{
